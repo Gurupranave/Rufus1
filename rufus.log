@@ -1,0 +1,196 @@
+Rufus x64 v4.3.2090 (Portable)
+Windows version: Windows 11 Home Single Language x64 (Build 22621.2283)
+Syslinux versions: 4.07/2013-07-25, 6.04/pre1
+Grub versions: 0.4.6a, 2.06
+System locale ID: 0x0409 (en-US)
+Will use default UI locale 0x0409
+SetLGP: Successfully set NoDriveTypeAutorun policy to 0x0000009E
+Localization set to 'en-US'
+Found 517 officially revoked UEFI bootloaders from embedded list
+Found 2351 additional revoked UEFI bootloaders from this system's SKUSiPolicy.p7b
+0 devices found
+0 devices found
+0 devices found
+0 devices found
+0 devices found
+0 devices found
+Found USB 2.0 device 'ADATA USB Flash Drive USB Device' (125F:CB10)
+1 device found
+Disk type: Removable, Disk size: 16 GB, Sector size: 512 bytes
+Cylinders: 1886, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x02A541FD
+Drive has an unknown Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: FAT32
+  Size: 14.5 GB (15517876224 bytes)
+  Start Sector: 2048, Boot: Yes
+0 devices found
+Found USB 2.0 device 'SanDisk Cruzer Blade USB Device' (0781:5567)
+Warning: Time-out while trying to query drive D
+Could not open GUID volume '\\?\Volume{ba8f53b0-62e2-4190-9c5f-eb006c5beba5}': [0x00000015] The device is not ready.
+No logical drive found (unpartitioned?)
+Could not open \\.\PhysicalDrive1: [0x00000002] The system cannot find the file specified.
+Could not open \\.\PhysicalDrive1: [0x00000002] The system cannot find the file specified.
+1 device found
+No volume information for drive 0x81
+Could not open \\.\PhysicalDrive1: [0x00000002] The system cannot find the file specified.
+No file system is selectable for this drive
+Scanning image...
+ISO analysis:
+  Image is an ISO9660 image
+  Will use '/isolinux/isolinux.cfg' for Syslinux
+  Detected Syslinux version: 6.04/20210811 (from '/isolinux/isolinux.bin')
+  Reported Grub version: 2.06
+Disk image analysis:
+  Image has an unknown Master Boot Record
+  Image is a bootable disk image
+ISO label: 'Linux Mint 21.2 Cinnamon 64-bit'
+  Size: 2.8 GB (Projected)
+  Note: File on disk is larger than reported ISO size by 4.2 MB...
+  Has a >64 chars filename
+  Uses: Syslinux/Isolinux v6.04
+  Uses: GRUB2 (2.06-linux-mint-21.2)
+  Uses: EFI
+Using image: linuxmint-21.2-cinnamon-64bit (1).iso (2.8 GB)
+Found USB 2.0 device 'ADATA USB Flash Drive USB Device' (125F:CB10)
+1 device found
+Disk type: Removable, Disk size: 16 GB, Sector size: 512 bytes
+Cylinders: 1886, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x02A541FD
+Drive has an unknown Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: FAT32
+  Size: 14.5 GB (15517876224 bytes)
+  Start Sector: 2048, Boot: Yes
+Found USB 2.0 device 'ADATA USB Flash Drive USB Device' (125F:CB10)
+1 device found
+Disk type: Removable, Disk size: 16 GB, Sector size: 512 bytes
+Cylinders: 1886, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x02A541FD
+Drive has an unknown Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: FAT32
+  Size: 14.5 GB (15517876224 bytes)
+  Start Sector: 2048, Boot: Yes
+Will reuse 'core.img' from 'C:\Users\gpran\Downloads\\Rufus\grub-2.06-linux-mint-21.2\' for Grub 2.x installation
+Will reuse 'ldlinux.sys' and 'ldlinux.bss' from 'C:\Users\gpran\Downloads\\Rufus\syslinux-6.04\20210811\' for Syslinux installation
+WARNING: The following application(s) or service(s) are accessing the drive:
+● [9912] C:\windows\System32\vds.exe (rw)
+You should close these applications before retrying the operation.
+
+Format operation started
+Requesting disk access...
+Will use 'D:' as volume mountpoint
+Opened \\.\PhysicalDrive1 for exclusive write access
+Analyzing existing boot records...
+Drive has an unknown Master Boot Record
+Clearing MBR/PBR/GPT structures...
+Erasing 128 sectors
+Initializing disk...
+Partitioning (MBR)...
+● Creating Main Data Partition (offset: 1048576, size: 14.5 GB)
+Waiting for logical drive to reappear...
+Formatting to FAT32 (using IFS)
+Using cluster size: 8192 bytes
+Quick format was selected
+Volume is in use
+[0x00000022] The wrong diskette is in the drive.
+Insert %2 (Volume Serial Number: %3) into drive %1. - Retrying...
+[0x00000032] The request is not supported. - Retrying...
+[0x00000032] The request is not supported. - Retrying...
+[0x00000032] The request is not supported. - Retrying...
+Format error: The device is in use by another process. Please close any other process that may be accessing the device.
+Re-mounted volume as D: after error
+
+Found USB 2.0 device 'ADATA USB Flash Drive USB Device' (125F:CB10)
+1 device found
+No volume information for drive 0x81
+Disk type: Removable, Disk size: 16 GB, Sector size: 512 bytes
+Cylinders: 1886, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x1F754247
+Drive has a Zeroed Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: (Unrecognized)
+  Size: 14.5 GB (15517876224 bytes)
+  Start Sector: 2048, Boot: Yes
+Found USB 2.0 device 'ADATA USB Flash Drive USB Device' (125F:CB10)
+1 device found
+No volume information for drive 0x81
+Disk type: Removable, Disk size: 16 GB, Sector size: 512 bytes
+Cylinders: 1886, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x1F754247
+Drive has a Zeroed Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: (Unrecognized)
+  Size: 14.5 GB (15517876224 bytes)
+  Start Sector: 2048, Boot: Yes
+Will reuse 'core.img' from 'C:\Users\gpran\Downloads\\Rufus\grub-2.06-linux-mint-21.2\' for Grub 2.x installation
+Will reuse 'ldlinux.sys' and 'ldlinux.bss' from 'C:\Users\gpran\Downloads\\Rufus\syslinux-6.04\20210811\' for Syslinux installation
+
+Format operation started
+Requesting disk access...
+Will use 'D:' as volume mountpoint
+Opened \\.\PhysicalDrive1 for exclusive write access
+Analyzing existing boot records...
+Drive has a Zeroed Master Boot Record
+Clearing MBR/PBR/GPT structures...
+Erasing 128 sectors
+Initializing disk...
+Partitioning (MBR)...
+● Creating Main Data Partition (offset: 1048576, size: 14.5 GB)
+Waiting for logical drive to reappear...
+Formatting to FAT32 (using IFS)
+Using cluster size: 8192 bytes
+Quick format was selected
+Volume is in use
+[0x00000022] The wrong diskette is in the drive.
+Insert %2 (Volume Serial Number: %3) into drive %1. - Retrying...
+[0x00000032] The request is not supported. - Retrying...
+[0x00000032] The request is not supported. - Retrying...
+[0x00000032] The request is not supported. - Retrying...
+Format error: The device is in use by another process. Please close any other process that may be accessing the device.
+Re-mounted volume as D: after error
+
+Found USB 2.0 device 'ADATA USB Flash Drive USB Device' (125F:CB10)
+1 device found
+No volume information for drive 0x81
+Disk type: Removable, Disk size: 16 GB, Sector size: 512 bytes
+Cylinders: 1886, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x1F75C745
+Drive has a Zeroed Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: (Unrecognized)
+  Size: 14.5 GB (15517876224 bytes)
+  Start Sector: 2048, Boot: Yes
+Found USB 2.0 device 'ADATA USB Flash Drive USB Device' (125F:CB10)
+1 device found
+No volume information for drive 0x81
+Disk type: Removable, Disk size: 16 GB, Sector size: 512 bytes
+Cylinders: 1886, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x1F75C745
+Drive has a Zeroed Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: (Unrecognized)
+  Size: 14.5 GB (15517876224 bytes)
+  Start Sector: 2048, Boot: Yes
+0 devices found
+0 devices found
+0 devices found
+Found USB 2.0 device 'SanDisk Cruzer Blade USB Device' (0781:5567)
+Device eliminated because it appears to contain no media
+0 devices found
+0 devices found
